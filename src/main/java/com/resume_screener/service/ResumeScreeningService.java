@@ -11,7 +11,7 @@ import java.util.List;
 
 @Service
 public class ResumeScreeningService {
-
+    @Autowired
     private final GroqAPIClient aiClient;
 
     public ResumeScreeningService(GroqAPIClient aiClient) {
