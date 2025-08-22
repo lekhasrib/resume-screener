@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/screen-resume")
-@CrossOrigin(origins = "https://lekhasrib.github.io/resume-screener-frontend/")
+@CrossOrigin(origins = "https://lekhasrib.github.io")
 public class ResumeScreeningController {
 
     private final ResumeScreeningService screeningService;
